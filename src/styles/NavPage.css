@@ -1,0 +1,37 @@
+.nav-page {
+  position: absolute;
+  height: 13rem;
+  width: 100%;
+  left: 0;
+  bottom: 4rem;
+  background-color: var(--sec-color);
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(101%);
+}
+
+.toggle-menu {
+  transform: translateY(0);
+}
+
+.nav-page li a {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.close-menu {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  height: 1.3rem;
+  width: 1.3rem;
+  background-color: #ff0000;
+  border-radius: 0.2rem;
+  border: thin solid #c50000;
+  color: #fff;
+}

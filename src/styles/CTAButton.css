@@ -1,0 +1,41 @@
+.cta-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.cta-btn a {
+  color: #fff;
+  display: block;
+  background-color: var(--prin-color);
+  height: 4.3rem;
+  width: 15rem;
+  padding: 0.2rem 0.2rem;
+  padding-left: 1.2rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  border: thin solid #b30a6c;
+  box-shadow: -0.1rem 0.2rem 0.5rem #2e1442;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  justify-content: space-between;
+}
+
+.alas {
+  background-color: #fff;
+  height: 100%;
+  width: 6rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alas img {
+  margin-bottom: 1.9rem;
+  width: 106%;
+  margin-right: 0;
+}

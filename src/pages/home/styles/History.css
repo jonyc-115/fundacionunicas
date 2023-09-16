@@ -1,0 +1,59 @@
+.welcome {
+  padding: 1px;
+}
+
+.welcome > .container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome h2 {
+  text-align: center;
+  margin: 1.2rem 0;
+}
+
+.welcome h3 {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 1.1rem;
+}
+
+.his_img {
+  background-image: url("../../../assets/well_back.png");
+  background-size: cover;
+  height: 100vh;
+  display: none;
+  width: 40rem;
+  margin-top: -1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: flex-end;
+}
+
+.his_img img {
+  width: 23rem;
+}
+
+.text_content {
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .his_img {
+    display: flex;
+    display: flex;
+    height: 100vh;
+    width: 60rem;
+    margin-left: -2.5rem;
+  }
+
+  .text_content {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    width: 40rem;
+    padding-right: 3rem;
+  }
+}

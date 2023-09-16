@@ -1,0 +1,28 @@
+.services {
+  min-height: 100vh;
+}
+
+.text-content {
+  height: 100%;
+}
+.services {
+  background-image: url("../../../assets/img_arc.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.arcangeles {
+  padding: 1rem;
+}
+
+.title-services {
+  width: 100%;
+}
+
+.title-services h2 {
+  font-size: 1rem;
+  justify-content: center;
+
+  align-items: center;
+}
