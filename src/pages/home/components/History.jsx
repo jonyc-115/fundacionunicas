@@ -5,6 +5,7 @@ import jen_2 from "../../../assets/jenn_2.png";
 const WelcomeSection = () => {
   return (
     <section className="welcome">
+      <div className="separador"></div>
       <div className="container">
         <div className="his_img">
           <img src={jen_2} alt="" />
@@ -36,6 +37,7 @@ const WelcomeSection = () => {
           <CTAButton />
         </div>
       </div>
+      <div className="separador"></div>
     </section>
   );
 };

@@ -1,5 +1,6 @@
 .welcome {
   padding: 1px;
+  margin-bottom: -1px;
 }
 
 .welcome > .container {
@@ -33,14 +34,28 @@
 }
 
 .his_img img {
-  width: 23rem;
+  width: 28rem;
 }
 
 .text_content {
   padding: 0 1rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1024px) {
+  .separador {
+    width: 100%;
+    height: 4rem;
+    margin-left: -1px;
+    background-color: var(--prin-color);
+    margin-top: -1px;
+    position: relative;
+    z-index: 100;
+  }
+
   .his_img {
     display: flex;
     display: flex;

@@ -14,10 +14,6 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-main {
-  padding-bottom: 4rem;
-}
-
 a {
   text-decoration: none;
 }
@@ -30,6 +26,10 @@ img {
   width: 100%;
 }
 
+main {
+  padding-bottom: 4rem;
+}
+
 .container {
   width: 95%;
   max-width: 1280px;
@@ -38,4 +38,10 @@ img {
 
 .none {
   display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding-bottom: 0;
+  }
 }

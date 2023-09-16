@@ -37,7 +37,6 @@
   margin-bottom: -4px;
 }
 
-
 @media screen and (min-width: 660px) {
   .hero {
     background-image: url("../../../assets/hero_back.png");
@@ -64,11 +63,11 @@
     font-size: 2rem;
   }
 
-  .cta-btn {
+  .hero_text > .cta-btn {
     justify-content: flex-start;
   }
 
-  .cta-btn a {
+  .hero_text > .cta-btn a {
     width: 16rem;
     height: 4.5rem;
   }
