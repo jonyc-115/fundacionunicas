@@ -1,105 +1,139 @@
 .arcangeles {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.arcangeles > .container {
   background-image: url("../../../assets/img_arc.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
   width: 100%;
-  padding-bottom: 1.5rem;
-}
-
-.arcangeles > .container {
-  padding-top: 2rem;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
+  padding: 2rem 1rem;
 }
 
-.title-arcangeles h2 {
-  color: #fff;
+.arcangeles h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
   text-align: center;
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  color: var(--white-color);
+  margin-bottom: 2rem;
 }
 
-.title-arcangeles h2 span {
+.arcangeles h2 span {
   font-weight: 400;
-  font-size: 1.1rem;
 }
 
-.arcangeles_img {
+.arc-img {
+  width: 100%;
   max-width: 30rem;
   margin: auto;
-  filter: drop-shadow(0rem 0.5rem 0.2rem #2b133d);
 }
 
-.arrow {
+.arc-arrow-text {
+  display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+  gap: 0.7rem;
+}
+
+.arc-arrow {
   display: none;
 }
 
-.title_arc {
-  margin-top: 1.5rem;
-  margin-bottom: 0.6rem;
-}
-
-.title_arc h3 {
-  text-align: center;
-  color: #fff;
-  margin-bottom: 0.5rem;
-}
-
-.title_arc p {
-  color: #fff;
+.arc-text h3 {
+  font-weight: 900;
+  color: var(--white-color);
   text-align: center;
 }
 
-.arc_list {
-  color: #fff;
-  font-weight: 600;
+.arc-text p {
+  color: var(--white-color);
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.arc-text p span {
+  font-weight: 800;
+  text-align: center;
+}
+
+.arc-list {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 1.5rem 0;
 }
 
-.arc_list li span {
-  margin-right: 0.3rem;
-  background: linear-gradient(180deg, #f83801 0%, #f9c320 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
+.arc-button {
+  background-color: transparent;
+  border: none;
+}
+
+.arc-button span {
+  background: -webkit-linear-gradient(90deg, #f8c10c, #ff0100);
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
-@media screen and (min-width: 1024px) {
-  .title-arcangeles h2 {
-    margin-top: 1.5rem;
+.arc-button h3 {
+  color: var(--white-color);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.arc-description {
+  min-height: 12rem;
+}
+
+.arc-description h3 {
+  font-weight: 900;
+  color: var(--white-color);
+}
+
+.arc-description p {
+  color: var(--white-color);
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .arcangeles h2 {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
   }
-  .arrow {
+
+  .arc-arrow-text {
+    padding: 2rem 2rem;
+  }
+
+  .arc-arrow {
     display: block;
-    width: 9rem;
+    width: 6rem;
   }
 
-  .title_arrow {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  .arc-text {
+    width: 80%;
   }
 
-  .flex_content {
-    display: flex;
-    gap: 1.5rem;
+  .arc-text h3 {
+    font-size: 1.5rem;
   }
 
-  .text_arc {
-    width: 25rem;
+  .arc-text p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
   }
 
-  .title_arc {
-    width: 20rem;
+  .arc-list {
+    width: 60%;
+    margin: auto;
   }
 
-  .arc_list {
-    justify-content: flex-end;
-    padding-right: 2rem;
+  .arc-description {
+    width: 80%;
+    margin: auto;
+    padding-top: 1.5rem;
   }
 }

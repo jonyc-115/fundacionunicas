@@ -1,18 +1,19 @@
 .hero {
-  background-image: url("../../../assets/hero_back_mobile.webp");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
   min-height: 100vh;
   width: 100%;
 }
 
 .hero > .container {
+  background-image: url("../../../assets/hero_back_mobile.webp");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
+  width: 100%;
 }
 
 .hero_text h1 {
@@ -38,13 +39,11 @@
 }
 
 @media screen and (min-width: 660px) {
-  .hero {
-    background-image: url("../../../assets/hero_back.png");
-  }
-
   .hero > .container {
+    background-image: url("../../../assets/hero_back.png");
     flex-direction: row;
     align-items: center;
+    padding: 0 2rem;
   }
 
   .hero_img {

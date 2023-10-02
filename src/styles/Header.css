@@ -25,7 +25,10 @@
 @media screen and (min-width: 1024px) {
   .header {
     top: 0;
-    background-color: var(--prin-color);
+  }
+
+  .header > .container {
+    padding-left: 3rem;
   }
 
   .close-menu {
@@ -41,6 +44,7 @@
     z-index: 0;
     background-color: transparent;
     flex-direction: row;
+    padding-right: 2rem;
     justify-content: flex-end;
   }
 
